@@ -11,6 +11,5 @@ jobs:
 
     steps:
     - uses: /actions/checkout@v1
-    - run: ls
+    - run: catkin_make
       working-directory: ./
-      
