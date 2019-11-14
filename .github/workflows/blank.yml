@@ -4,6 +4,8 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest 
     image: 'docker://ros:kinetic-ros-base'
+    steps:
+	- name: Test Docker
+	  run: 	
